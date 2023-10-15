@@ -1,5 +1,5 @@
 {% set name = "lisc" %}
-{% set version = "0.1.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/lisc-tools/lisc/archive/{{ version }}.tar.gz
-  sha256: 414c20c29a690e44b46af9aa5885a5fe7c5d3df2b7e64d7019bd6ab866d213a1
+  sha256: 80ca4004bfbbe0217ed169efca78fe73082e2772353d9c1fee103ec67e9f4907
 
 build:
   number: 0
